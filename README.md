@@ -62,7 +62,3 @@ tic-tac-toe-minimax-ai/
 - [ ] Add score tracking across multiple rounds
 - [ ] Add sound effects
 - [ ] Highlight the winning line on the board
-
-## License
-
-Feel free to use, modify, and share this project for learning purposes.
