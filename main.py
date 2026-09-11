@@ -86,7 +86,6 @@ def retry():
     global game_end,turn
     game_end = False
     turn = "X"
-    button1["text"] = ""
     for button in buttons:
         button["text"] = " "
     for i in board.keys():    
