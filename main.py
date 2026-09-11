@@ -220,8 +220,8 @@ def play(event):
       print(f"Player X played at position {clicked}")     
     
 
-SingleplayerButton = Button(optionframe, text="Singleplayer",bg="light blue",width="19",height="1",font=("Arial",10,"bold"),relief="raised",borderwidth="10",command=Singleplayer)
-SingleplayerButton.grid(row=5,column=0,columnspan=1,sticky = "NW",padx=10,pady=10)   
+SingleplayerButton = Button(optionframe, text="Singleplayer",bg="green",width="19",height="1",font=("Arial",10,"bold"),relief="raised",borderwidth="10",command=Singleplayer)
+SingleplayerButton.grid(row=5,column=0,columnspan=1,sticky = "NW",padx=10,pady=10)
 MultiplayerButton = Button(optionframe, text="Multiplayer",bg="light blue",width="19",height="1",font=("Arial",10,"bold"),relief="raised",borderwidth="10",command=Multiplayer)
 MultiplayerButton.grid(row=5,column=1,columnspan=1,sticky = "NW",padx=10,pady=10)       
  
