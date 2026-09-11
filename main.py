@@ -132,6 +132,7 @@ def minimax(board,isMaximizing):
         
 
 def play_computer():
+    global game_end
     bestScore = -100
     bestmove = 0
 
@@ -192,10 +193,10 @@ def play(event):
          
          
         turn = "O"
-        if mode == "Singleplayer":
+        if mode == "Singleplayer" and not game_end and not draw():
           play_computer()
-          turn = "X"
-        
+          if not game_end:
+            turn = "X"
         
         
 
